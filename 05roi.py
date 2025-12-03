@@ -6,7 +6,7 @@ x = 320; y= 150; w=50; h=50;
 cv2.rectangle(img,(x,y), (x+w, y+h), (0,255, 0))
 
 cv2.imshow("img", img)
-cv2.waitKey()
+cv2.waitKey()   
 cv2.destroyAllWindows()
 
 roi = img[y:y+h, x:x+w]
